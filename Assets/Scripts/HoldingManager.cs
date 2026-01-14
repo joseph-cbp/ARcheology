@@ -52,6 +52,10 @@ public class HoldingManager : MonoBehaviour
     {
         if(heldObject != null)
         {
+            if(heldObject.TryGetComponent<CanController>(out CanController cc))
+            {
+               cc.OnDrop(); 
+            }
             var body = heldObject.GetComponent<Rigidbody>();
             if(body != null)
             {
@@ -59,6 +63,7 @@ public class HoldingManager : MonoBehaviour
             }
         }
         heldObject = null;
+
     }
 
     // public bool CompareGameObject(GameObject obj)
