@@ -1,4 +1,4 @@
-# VR Mobile Experience
+# AR Mobile Experience
 
 Experiência de Realidade Virtual desenvolvida em Unity, focada em dispositivos móveis, utilizando recursos de XR para criar uma experiência imersiva em ambiente 3D.
 
@@ -6,9 +6,9 @@ Experiência de Realidade Virtual desenvolvida em Unity, focada em dispositivos 
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo explorar conceitos de Realidade Virtual em dispositivos móveis, incluindo:
+Este projeto tem como objetivo explorar conceitos de Realidade Aumentada em dispositivos móveis, incluindo:
 
-- Experiência imersiva em VR
+- Experiência imersiva em AR
 - Interação em ambientes 3D
 - Pipeline de desenvolvimento e deploy para dispositivos móveis
 - Boas práticas de versionamento com Git e Git LFS em projetos Unity
@@ -17,11 +17,11 @@ O projeto possui caráter educacional e experimental.
 
 ---
 
-## 🕶️ Sobre a Experiência VR
+## 🕶️ Sobre a Experiência AR
 
 - **Plataforma alvo:** Mobile
 - **Dispositivos:** iOS
-- **Tipo de VR:** Mobile VR (XR)
+- **Tipo de AR:** Mobile AR (XR)
 - **Execução:** Dispositivo físico (celular)
 
 ---
@@ -75,7 +75,7 @@ cd ARcheology
 
 ---
 
-## Executando no Celular (VR)
+## Executando no Celular (AR)
 1.	Conecte o iPhone
 2.	No Unity:
     -	File > Build Settings
@@ -90,5 +90,11 @@ cd ARcheology
 ## Testes
 
 - Testado em dispositivos físicos
-- Recomenda-se sempre testar no celular, pois o Unity Editor não simula corretamente VR mobile
+- Recomenda-se sempre testar no celular, pois o Unity Editor não simula corretamente AR mobile
 - Performance pode variar conforme o hardware do dispositivo
+
+## Features
+Além das features mostradas durante a Trilha Desenvolvimento para AR/VR fornecida pela Nexvisual, desenvolvi, experimentalmente algumas:
+- Cilindro com movimentação: ao ser solto ele executa uma animação como se estivesse servindo algo.
+- Modelos de Sushi: se tranformam ao toque.
+- Elementos mudam de cor: ao serem colocados no Scanner, alguns elementos mudam de cor.
